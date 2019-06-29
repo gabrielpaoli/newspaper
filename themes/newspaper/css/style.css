@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.layout-content{
+  flex-basis: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .layout-content {
+    flex-basis: 100%;
+  }
+  .layout-sidebar-first{
+    flex-basis: 100%;
+  }
+}
+
+.layout-sidebar-first{
+  flex-basis: 30%;
+}
+
+.field--name-field-image img{
+  width: 100%;
+}
